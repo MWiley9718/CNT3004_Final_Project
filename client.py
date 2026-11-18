@@ -215,7 +215,7 @@ class CloudClient:
         return r
 
 
-HELP = __doc__.split("Commands (case-insensitive):")[1].split("The CloudClient")[0]
+HELP = "Commands: CONNECT <ip> [port] | LOGIN <user> | UPLOAD <file> [folder] | DOWNLOAD <file> [--drop MB] | DELETE <file> | DIR [folder] | SUBFOLDER create|delete <path> | STATS | LOGOUT | QUIT"
 
 
 def show(r):
